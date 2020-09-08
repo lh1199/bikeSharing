@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Admin from './admin'
+import './style.less'
+import './router'
 
 ReactDOM.render(
-  <div>111</div>,
+  <Admin />,
   document.getElementById('root')
 )
